@@ -22,20 +22,31 @@ li {
     background-color: var(--h-f-color);
 }
 
-
-
-/*DEBUG*/
-
-header {
-    background-color:lightpink;
-
+.links {
+    margin-left: auto;
 }
 
-section {
-    height: 500px;
+.header-icon {
+    border: 1px solid white;
+    align-self: flex-start;
 }
 
-section #portoglio {
-    height: 1000px;
+/*MAIN*/
+    /*jumbotron*/
 
+#jumbotron {
+    background-color: var(--primary-color);
 }
+
+.jumbo-avatar {
+    width: 50%;
+    
+}
+
+.star-line {
+    border-top: 1px solid white;
+}
+
+
+
+/*RESPONSIVE*/
