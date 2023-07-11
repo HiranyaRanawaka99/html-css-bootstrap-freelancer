@@ -1,8 +1,33 @@
+:root {
+    --primary-color: #1ABC9C;
+    --secondary-color: #3A546D;
+    --h-f-color: #2C3E50;
+
+}
+
+
+body {
+    color: white;
+}
+
+
+li {
+    list-style: none;
+}
+
+/*HEADER*/
+
+#header {
+    line-height: 80px;
+    background-color: var(--h-f-color);
+}
+
+
+
 /*DEBUG*/
 
 header {
     background-color:lightpink;
-    height:50px;
 
 }
 
@@ -13,9 +38,4 @@ section {
 section #portoglio {
     height: 1000px;
 
-}
-
-
-div {
-    height: 100px;
 }
