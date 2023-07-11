@@ -6,10 +6,6 @@
 }
 
 
-body {
-    color: white;
-}
-
 img {
     width: 100%;
 }
@@ -24,6 +20,7 @@ li {
 #header {
     line-height: 80px;
     background-color: var(--h-f-color);
+    color:white;
 }
 
 .links {
@@ -40,6 +37,8 @@ li {
 
 #jumbotron {
     background-color: var(--primary-color);
+    text-align: center;
+    color:white;
 }
 
 .jumbo-avatar {
@@ -51,6 +50,10 @@ li {
     border-top: 1px solid white;
 }
 
+    /*about*/
 
-
+#about {
+    background-color: var(--primary-color);
+    color:white;
+    }
 /*RESPONSIVE*/
